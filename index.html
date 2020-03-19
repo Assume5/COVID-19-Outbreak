@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <title>Covid19 Outbreak!</title>
+    <head>
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+
+        <style>
+
+        h1{
+            font-family:fantasy;
+            font-size:3em;
+            border-top: 2px solid blue;
+            border-bottom: 2px solid blue;
+            border-right: 2px solid blue;
+            border-left: 2px solid blue;
+            text-align: center;
+            margin-top: 10px;
+        }
+        h2{
+            font-family:fantasy;
+            font-size:2em;
+            border-bottom: 2px solid pink;
+            text-align: center;
+            margin-top: 10px;
+        }
+        footer{
+            margin-top: 10px;
+            text-align: center;
+            width:100%;
+            color:#666;
+        }
+        </style>
+    </head>
+    <body onload="loadMap();">
+        <h2>Covid19 Outbreak</h2>
+      <div id="table"></div>
+	    <div id='chart'></div>
+      <div id="sunburst"></div>
+            <footer>
+                Copyright © 2020 Chenyi Z
+            </footer>
+    </body>
+    <script src="code.js"></script>
+</html>
